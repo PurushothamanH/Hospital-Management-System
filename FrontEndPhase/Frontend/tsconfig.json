@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Use "react" if React <17
+    "module": "ESNext",
+    "target": "ES6",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "jest.setup.ts", "__mocks__"],
+  "exclude": ["node_modules", "dist", "src/test", "__mocks__"]
+}
